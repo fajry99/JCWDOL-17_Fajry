@@ -44,3 +44,33 @@ console.log(result);
 
 };
 console.log(95, 1.70);
+
+// no.4
+
+const array: number [] = [1,2,3,4,5,6,7,8,9,10];
+
+const removeOddNum = ("array: number => []");
+console.log(array.filter(number => number%2==0));
+
+//no.5
+
+const string = "Hello World"; 
+
+const stringToArray = (str:string) => 
+    console.log(str.split(" "));
+
+stringToArray(string);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
